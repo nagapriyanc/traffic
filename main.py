@@ -1,14 +1,13 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 
-s = Service(executable_path=r'C:\Users\LENOVO\Documents\traffic\chromedriver.exe')
-driver = webdriver.Chrome()
+
+driver = webdriver.Chrome(executable_path='')
 
 
 for i in range(3):
 	print(i)
-	driver.get("http://google.com")
+	driver.get("url of your site")
 	time.sleep(5)
 
 driver.quit()	
