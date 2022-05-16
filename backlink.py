@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service
 
 def go():
     global driver,e
-    driver = webdriver.Chrome(executable_path='C:\\Users\\LENOVO\\PycharmProjects\\facebook\\chromedriver.exe')
+    driver = webdriver.Chrome(executable_path=' path of your chrome driver')
     e1 = driver.current_window_handle
     e = [e1]
     driver.get('https://autobacklinkbuilder.com/freebacklinks/links.php')
@@ -72,5 +72,5 @@ def close():
     driver.quit()
 
 if __name__ == "__main__":
-   print("call default function")
-   go()
+      go()
+
