@@ -12,6 +12,7 @@ for i in range(count):
 	driver.get("url of your site")
 	#take some break
 	time.sleep(5)
+	print('opening site in Chrome')
 
 #close browser
 driver.quit()	
